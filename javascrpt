@@ -1,0 +1,7 @@
+function toggleMenu() {
+  var menuToggle = document.querySelector('.menu-toggle');
+  var nav = document.querySelector('nav ul');
+
+  menuToggle.classList.toggle('open');
+  nav.classList.toggle('open');
+}
